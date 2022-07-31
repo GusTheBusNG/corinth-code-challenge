@@ -1,0 +1,20 @@
+@use '../../assets/abstracts/' as *;
+
+.profile {
+  width: 30rem;
+  margin-top: 260px;
+  color: $heading-text-color;
+  background-color: $background-grey;
+  border-radius: 10px;
+  padding: 1rem;
+
+  h1 {
+    font-size: $header-size;
+    width: fit-content;
+  }
+
+  h5 {
+    font-size: $normal-size;
+    font-weight: 400;
+  }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './profile.scss';
+
 import Bio from '../bio';
 import BioList from '../bioList';
 
@@ -16,12 +18,12 @@ const Profile = ({
   if (name === '') return;
 
   return (
-    <div>
+    <div className='profile'>
       <h1>Hello there {name}</h1>
-      <Bio {...{name, height, weight, hairColor, birthYear}} />
+      <Bio {...{ name, height, weight, hairColor, birthYear }} />
       <BioList label='Species' requestUrls={species} />
-      <BioList label='Starships' requestUrls={starships} />
-      <BioList label='Films' requestUrls={films} field='title' />
+      <BioList label='Starship' requestUrls={starships} />
+      <BioList label='Film' requestUrls={films} field='title' />
     </div>
   );
 }

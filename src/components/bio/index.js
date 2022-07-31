@@ -1,20 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BioList from '../bioList';
+import './bio.scss';
 
 const Bio = ({
   height,
   weight,
   hairColor,
   birthYear
-}) => (
-  <div>
-    <h5>Height: {height}cm</h5>
-    <h5>Weight: {weight}kg</h5>
-    <h5>Hair Color: {hairColor}</h5>
-    <h5>Birth Year: {birthYear}</h5>
-  </div>
-);
+}) => <p className='bio'>{height}cm | {weight}kg | {birthYear} | {hairColor}</p>
 
 Bio.propTypes = {
   height: PropTypes.string,
