@@ -1,0 +1,8 @@
+.selection {
+  background-color: #DDD;
+
+  &.current {
+    background-color: #666;
+    color: #DDD;
+  }
+}
