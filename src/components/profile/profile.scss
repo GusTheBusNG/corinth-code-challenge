@@ -1,12 +1,16 @@
 @use '../../assets/abstracts/' as *;
 
 .profile {
-  width: 30rem;
+  width: 20rem;
   margin-top: 260px;
   color: $heading-text-color;
   background-color: $background-grey;
   border-radius: 10px;
   padding: 1rem;
+
+  @media (min-width: 530px) {
+    width: 30rem;
+  }
 
   h1 {
     font-size: $header-size;

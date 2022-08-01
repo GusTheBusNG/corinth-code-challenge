@@ -6,7 +6,7 @@ import Error from '../error';
 import InfoPill from '../infoPill';
 import { getLoadingQuote } from '../../utils/randomPhrases';
 
-const BioList = ({ label, requestUrls, field }) => {
+const BioList = ({ label, requestUrls }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(undefined);
   const [names, setNames] = useState([]);
@@ -14,10 +14,10 @@ const BioList = ({ label, requestUrls, field }) => {
   useEffect(() => {
     setLoading(true);
     Promise.all(requestUrls.map(requestUrl => axios.get(requestUrl)))
-      .then(request => setNames(request.map(({ data }) => data[field])))
+      .then(request => setNames(request.map(({ data }) => data.name)))
       .catch(err => setError(err))
       .finally(() => setLoading(false))
-  }, [requestUrls, field])
+  }, [requestUrls])
 
   if (error) return <Error error={error} />
   
@@ -31,8 +31,7 @@ BioList.propTypes = {
 }
 
 BioList.defaultProps = {
-  requestUrls: [],
-  field: 'name'
+  requestUrls: []
 }
 
 export default BioList;

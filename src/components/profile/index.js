@@ -4,6 +4,7 @@ import './profile.scss';
 
 import Bio from '../bio';
 import BioList from '../bioList';
+import Films from '../films';
 
 const Profile = ({
   name,
@@ -16,6 +17,8 @@ const Profile = ({
   films
 }) => {
   if (name === '') return;
+  films = films.map(film => film[film.length - 2]);
+  console.log(films)
 
   return (
     <div className='profile'>
@@ -23,7 +26,7 @@ const Profile = ({
       <Bio {...{ name, height, weight, hairColor, birthYear }} />
       <BioList label='Species' requestUrls={species} />
       <BioList label='Starship' requestUrls={starships} />
-      <BioList label='Film' requestUrls={films} field='title' />
+      <Films films={films} />
     </div>
   );
 }
