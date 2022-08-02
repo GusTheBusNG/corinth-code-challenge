@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render renders correctly 1`] = `
+<div
+  className="content"
+>
+  <div
+    className="heading"
+  >
+    <img
+      alt="Star Wars Logo"
+      className="sw-logo"
+      src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/logo?_a=ATAMhAA0"
+    />
+    <div
+      className="search"
+    >
+      <input
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="I'm looking for..."
+        type="text"
+        value=""
+      />
+      <div
+        className="auto-complete"
+      >
+        <p
+          className="loading"
+        >
+          loading
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App when a user selects a character renders correctly 1`] = `
+<div
+  className="content"
+>
+  <div
+    className="heading"
+  >
+    <img
+      alt="Star Wars Logo"
+      className="sw-logo"
+      src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/logo?_a=ATAMhAA0"
+    />
+    <div
+      className="search"
+    >
+      <input
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="I'm looking for..."
+        type="text"
+        value=""
+      />
+      <div
+        className="auto-complete"
+      >
+        <p
+          className="loading"
+        >
+          loading
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="profile"
+  >
+    <h1>
+      Hello there 
+      Anakin Skywalker
+    </h1>
+    <p
+      className="bio"
+    >
+      6
+      cm | 
+      something
+      kg | 
+      some time long ago
+       | 
+      brown
+    </p>
+    <div
+      className="info-pill"
+    >
+      <img
+        alt="Species"
+        className="icon"
+        src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/Species?_a=ATAMhAA0"
+      />
+      <p
+        className="content"
+      >
+        loading
+      </p>
+    </div>
+    <div
+      className="info-pill"
+    >
+      <img
+        alt="Starship"
+        className="icon"
+        src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/Starship?_a=ATAMhAA0"
+      />
+      <p
+        className="content"
+      >
+        loading
+      </p>
+    </div>
+    <div
+      className="films"
+    >
+      <img
+        alt="film"
+        className="film-poster"
+        src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/movies/1?_a=ATAMhAA0"
+      />
+    </div>
+  </div>
+</div>
+`;

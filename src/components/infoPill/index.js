@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './infoPill.scss';
 
-import { Image } from 'cloudinary-react';
+import { imageUrl } from '../../utils/cloudinary';
 
 const InfoPill = ({ icon, children }) => (
   <div className='info-pill'>
-    <Image publicId={`LifeWay-star-wars/${icon}`} className='icon' />
+    <img src={imageUrl(icon)} className='icon' alt={icon} />
     <p className='content'>{children}</p>
   </div>
 )

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search render error renders correctly 1`] = `
+<div
+  className="search"
+>
+  <input
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    placeholder="I'm looking for..."
+    type="text"
+    value=""
+  />
+  <div
+    className="auto-complete"
+  >
+    <p
+      className="loading"
+    />
+    <p
+      className="error"
+    >
+      error
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Search render loading renders correctly 1`] = `
+<div
+  className="search"
+>
+  <input
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    placeholder="I'm looking for..."
+    type="text"
+    value=""
+  />
+  <div
+    className="auto-complete"
+  >
+    <p
+      className="loading"
+    >
+      loading
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Search render renders correctly 1`] = `
+<div
+  className="search"
+>
+  <input
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    placeholder="I'm looking for..."
+    type="text"
+    value=""
+  />
+  <div
+    className="auto-complete"
+  >
+    <div
+      className="selection current"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <p>
+        Anakin Skywalker
+      </p>
+    </div>
+    <div
+      className="selection"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <p>
+        Obi-Wan Kenobi
+      </p>
+    </div>
+  </div>
+</div>
+`;

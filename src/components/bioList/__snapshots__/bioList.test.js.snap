@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BioList render renders correctly 1`] = `
+<div
+  className="info-pill"
+>
+  <img
+    alt="label"
+    className="icon"
+    src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/label?_a=ATAMhAA0"
+  />
+  <p
+    className="content"
+  >
+    loading
+  </p>
+</div>
+`;

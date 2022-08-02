@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading render renders correctly 1`] = `
+<p
+  className="loading"
+>
+  loading
+</p>
+`;
+
+exports[`Loading render renders correctly when not loading 1`] = `null`;

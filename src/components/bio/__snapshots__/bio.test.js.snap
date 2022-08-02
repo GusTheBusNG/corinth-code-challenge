@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bio render renders correctly 1`] = `
+<p
+  className="bio"
+>
+  6
+  cm | 
+  kg | 
+   | 
+</p>
+`;

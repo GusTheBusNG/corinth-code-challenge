@@ -2,16 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './films.scss';
 
-import { Image } from 'cloudinary-react';
+import { imageUrl } from '../../utils/cloudinary';
 
 const Films = ({ films }) => (
   <div className='films'>
     {
       films.map(film => (
-        <Image
+        <img
           className='film-poster'
-          publicId={`LifeWay-star-wars/movies/${film}`}
+          src={imageUrl(`movies/${film}`)}
           key={film}
+          alt='film'
         /> 
       ))
     }

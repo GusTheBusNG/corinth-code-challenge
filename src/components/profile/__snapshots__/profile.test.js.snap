@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile render renders correctly 1`] = `
+<div
+  className="profile"
+>
+  <h1>
+    Hello there 
+    Anakin Skywalker
+  </h1>
+  <p
+    className="bio"
+  >
+    6
+    cm | 
+    something
+    kg | 
+    some time long ago
+     | 
+    brown
+  </p>
+  <div
+    className="info-pill"
+  >
+    <img
+      alt="Species"
+      className="icon"
+      src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/Species?_a=ATAMhAA0"
+    />
+    <p
+      className="content"
+    >
+      loading
+    </p>
+  </div>
+  <div
+    className="info-pill"
+  >
+    <img
+      alt="Starship"
+      className="icon"
+      src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/Starship?_a=ATAMhAA0"
+    />
+    <p
+      className="content"
+    >
+      loading
+    </p>
+  </div>
+  <div
+    className="films"
+  >
+    <img
+      alt="film"
+      className="film-poster"
+      src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/movies/1?_a=ATAMhAA0"
+    />
+  </div>
+</div>
+`;

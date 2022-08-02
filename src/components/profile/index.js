@@ -18,7 +18,6 @@ const Profile = ({
 }) => {
   if (name === '') return;
   films = films.map(film => film[film.length - 2]);
-  console.log(films)
 
   return (
     <div className='profile'>

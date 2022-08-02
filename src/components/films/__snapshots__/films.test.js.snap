@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Films render renders correctly 1`] = `
+<div
+  className="films"
+>
+  <img
+    alt="film"
+    className="film-poster"
+    src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/movies/1?_a=ATAMhAA0"
+  />
+</div>
+`;

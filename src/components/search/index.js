@@ -36,7 +36,9 @@ const Search = ({ setCharacter }) => {
     searchRef.current.blur()
   }
 
-  const handleKeyDown = ({ keyCode, target }) => {
+  const handleKeyDown = ({ keyCode }) => {
+    if (!gotResults) return;
+    
     if (keyCode === 13 && selectionIndex > -1 && selectionIndex < data.results.length) {
       // User hit enter
       selectCharacter()

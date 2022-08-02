@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoPill render renders correctly 1`] = `
+<div
+  className="info-pill"
+>
+  <img
+    alt="lightsaber"
+    className="icon"
+    src="https://res.cloudinary.com/dnglix0tu/image/upload/f_auto/v1/LifeWay-star-wars/lightsaber?_a=ATAMhAA0"
+  />
+  <p
+    className="content"
+  >
+    and the children too
+  </p>
+</div>
+`;
